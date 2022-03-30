@@ -69,10 +69,14 @@ h1 {
     width: 35vw;
     background: #F52870;
     position: absolute;
-    bottom: 49%;
+    bottom: 53%;
     left: 5%;
 }
-
+.pp {
+    margin-top: 40px;
+    font-size: 40px;
+    padding-top: 30px;
+}
 
 
 
