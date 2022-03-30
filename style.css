@@ -1,26 +1,28 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
 * {
     margin: 0;
     padding: 0;
-    font-family: monospace;
     box-sizing: border-box;
 
 }
 body {
     background-color: #000;
     color: white;
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
 
 }
 
 
 .navbar {
-    width: 85%;
     margin: auto;
     padding: 35px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
     color: azure;
+    font-size: 20px;
+    font-weight: bold;
 }
 .navbar ul li {
     list-style: none;
@@ -52,14 +54,30 @@ body {
 .image {
     border: 3px dotted #F52870;
     border-radius: 50%;
-    /* width: 200px;
-    height: 200px; */
 
 }
 .facts {
     height: 100vh;
     width: 100vw;
 }
+h1 {
+    font-size: 70px;
+}
+.hd::after {
+    content: "";
+    height: 5px;
+    width: 35vw;
+    background: #F52870;
+    position: absolute;
+    bottom: 49%;
+    left: 5%;
+}
+
+
+
+
+
+
 /* .content p {
     margin: 20px auto;
     font-weight: 80;
