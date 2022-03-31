@@ -80,10 +80,12 @@ h1 {
 .image2 {
     border: 2px solid #F52870;
     border-radius: 50%;
-    position: relative;
+    display: flex;
     
 }
-
+.about{
+    height: fit-content;
+}
 
 
 
