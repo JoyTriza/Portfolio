@@ -63,7 +63,7 @@ body {
 h1 {
     font-size: 70px;
 }
-.hd::after {
+.header::after {
     content: "";
     height: 5px;
     width: 35vw;
@@ -78,8 +78,10 @@ h1 {
     padding-top: 30px;
 }
 .image2 {
-    border: 3px solid #F52870;
+    border: 2px solid #F52870;
     border-radius: 50%;
+    position: relative;
+    
 }
 
 
