@@ -78,8 +78,8 @@ h1 {
     padding-top: 30px;
 }
 .image2 {
-    border: 50%;
-    
+    border: 3px solid #F52870;
+    border-radius: 50%;
 }
 
 
