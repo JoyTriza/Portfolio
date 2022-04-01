@@ -11,17 +11,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container-fluid">
+    <nav>
+        <div class="container-fluid">
         <div class="navbar">
             <ul>
-                <li><a href="#Home" ></a>Home</a></li>
-                <li><a href="#About"></a>About</a></li>
-                <li><a href="#Projects"></a>Projects</a>
-        
-
+                <li><a href="#Home"></a>Home</a></li>
+                <li><a href="#About"></a>About Me</a></li>
+                <li><a href="#Projects"></a> My Projects</a></li>
+                <li><a href="#Contacts"></a>Contact Me</li>
             </ul>
         </div>
     </div>
+    </nav>
 
     <div class="container-fluid facts">
         <div class="row justify-content-around align-items-center" >
@@ -34,35 +35,34 @@
                 </div>
             </div>
             <div class="col-lg-5">
-                <img class="w-75 image col-lg-6 align-items-center" src="images/sticker.png" alt="">
+                <img class="w-75 image align-items-center" src="images/sticker.png" alt="avatar">
             </div>
         </div>
     </div>
-    
-    
-    <div class="container">
-        <div class="jumbotron">
-            <div class="h-auto display-7 text-center">
-                <h2 class="fs-1 fw-bold">About</h2>
+    <hr>
+
+
+    <div class="container-fluid page2">
+        <div class="row align-items-center">
+                <div class="section">
+                    <p class="fs-1 fw-bold text-center my-5 ">About</p>
+                </div>
                 <br>
-                <p class="text ">I am a student in Moringa School currently in the FlatIron Program. It is first time interacting with programming languages and my first exposure was to HTML and CSS. So  far, I have accomplished to learn the two basic languages and I am coping well. I have a huge desire to have problems that are there for me to solve. Inshort, you can call me a problem-solver.</p>
-                <p>Icarry an unquechable thirst for coding and programming languages and I am eager to get a grip of the other languages that will later on produce an intelligent Full Stack Developer. Below is my progress so far.</p>
-                <br>
-            </div>
-            <div class="row">
-                <div class="col lg-6">
-                    <img class="w-25 col-lg-6 items image2" src="./images/star eyes.png" alt=""></div>
-                    <div class="col-lg-6">
-                        <h2 class="dispaly-6 my-4">Language Skills</h2>
-                        <br>
-                        <div class="mb-3">
+                <div class="col-lg-5 flex-column">
+                    <p class="about text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum eum praesentium consequuntur. Porro iste et deleniti ad culpa. Quod, beatae. Quasi quia unde recusandae omnis facilis beatae saepe distinctio veritatis.</p>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus tempore, fugit recusandae omnis voluptas deserunt tenetur praesentium animi nemo quae atque, quasi ipsam assumenda expedita exercitationem corrupti, saepe placeat vero?</p>
+                    
+                </div>
+                <div class="col-lg-6">
+                    <div class="mb-3">
                             <label>HTML</label>
                             <div class="progress">
                                 <div class="progress-bar bg-info" style="width: 70%;" role="progressbar" aria-valuenow="100%" aria-valuemin="0" aria-valuemax="">70%</div>
                                 </div>
                         </div>
 
-                                    <div class="mb-3">
+                             <div class="mb-3">
                             <label>CSS</label>
                             <div class="progress">
                                 <div class="progress-bar bg-info" style="width: 80%;" role="progressbar" aria-valuenow="100%" aria-valuemin="0" aria-valuemax="">80%</div>
@@ -75,19 +75,19 @@
                                 <div class="progress-bar bg-info" style="width: 50%;" role="progressbar" aria-valuenow="100%" aria-valuemin="0" aria-valuemax="">50%</div>
                                 </div>
                         </div>
+                </div>
 
-                    </div>
-            </div>
+
         </div>
     </div>
-<br>
-    <div class="container fluid">
-        <p class="fs-1 text-center fw-bold">
-            Projects
+    <hr>
+
+    <div class="container fluid facts ">
+        <p class="fs-1 fw-bold my-3 text-center">
+            My Projects
         </p>
-        <div class="col-lg-6">
-            <img src="" alt="">
-        </div>
+        <br>
+        
         <p class="projects">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, repellat suscipit. Quam veritatis quaerat animi tempore, dolore cumque perspiciatis error possimus adipisci culpa nostrum molestias, qui recusandae. Quidem, error id?</p>
             <br>
@@ -99,7 +99,7 @@
 
                 <div class="col-lg-3 position-relative">
                     <div>
-                        <img class="w-100" src="./images/laptop reading.pnggit add .\" alt="">
+                        <img class="w-100" src="./images/laptop reading.png" alt="">
                     </div>
                     <div class="position-absolute link1">
                         <a href="https://github.com/JoyTriza/AKAN-.git">
@@ -136,6 +136,13 @@
         </div>
 
     </div>
+    <hr>
+
+       
+
+        
+
+    
     
     <script ></script>
 </body>
@@ -145,59 +152,78 @@
 
 
 
+<!-- 
 
+<div class="container">
+        <div class="jumbotron">
+            <div class="col-lg-5">
+                <h2 class="fs-1 fw-bold my-5 text text-center" id="About">About</h2>
+                <br>
+                <p class="text">I am a student in Moringa School currently in the FlatIron Program. It is first time interacting with programming languages and my first exposure was to HTML and CSS. So  far, I have accomplished to learn the two basic languages and I am coping well. I have a huge desire to have problems that are there for me to solve. Inshort, you can call me a problem-solver.</p>
+                <p>I carry an unquechable thirst for coding and programming languages and I am eager to get a grip of the other languages that will later on produce an intelligent Full Stack Developer. Below is my progress so far.</p>
+                <br>
+            </div>
+            <div class="row">
+                <div class="col lg-6">
+                    <div class="col-lg-6">
+                        <h2 class="">Language Skills</h2>
+                        <br>
+                        <div class="mb-3">
+                            <label>HTML</label>
+                            <div class="progress">
+                                <div class="progress-bar bg-info" style="width: 70%;" role="progressbar" aria-valuenow="100%" aria-valuemin="0" aria-valuemax="">70%</div>
+                                </div>
+                        </div>
 
+                             <div class="mb-3">
+                            <label>CSS</label>
+                            <div class="progress">
+                                <div class="progress-bar bg-info" style="width: 80%;" role="progressbar" aria-valuenow="100%" aria-valuemin="0" aria-valuemax="">80%</div>
+                                </div>
+                        </div>
 
-<!-- <div class="container-fluid about my-5">
-    <p class="text-center fs-1 fw-bold my-5 " id="aboutme">
-    About Me
-  </p>
-  <div class="row">
-      <div class="col-lg-6">
-         
-      </div>
-      <div class="col-lg-6">
-          <p class="me">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae numquam repellat a quos, fugiat deserunt quibusdam officia architecto consequatur! Numquam, itaque rerum eum iusto non maxime possimus nam harum deleniti.</p>
-              <br>
-              <p> ipsum dolor sit amet consectetur adipisicing elit. Sed libero ad at nostrum incidunt quibusdam esse fugiat, optio doloribus doloremque unde molestias, dicta dolorum error quas earum deserunt, nobis laudantium?</p>
-              <br>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni nemo dolor rem laboriosam quae error itaque aliquam vitae exercitationem, enim eligendi neque fugiat aperiam. Assumenda corrupti iste quo adipisci fuga?
-            </p>
+                                  <div class="mb-3">
+                            <label>JAVASCRIT</label>
+                            <div class="progress">
+                                <div class="progress-bar bg-info" style="width: 50%;" role="progressbar" aria-valuenow="100%" aria-valuemin="0" aria-valuemax="">50%</div>
+                                </div>
+                        </div>
+
+                    </div>
+            </div>
         </div>
-    </div>
-</div> -->
+    </div> -->
 
 
+     <!-- <div class="container facts">
+            <form> 
+                <h2 class="text-center mt-3 fs-1">Contact Me</h2>
+                <br>
+                <div class="form">
+                <div class="mb-3 mt-3 tj"> 
+                    <input type="text" placeholder="Name" required>
+                </div>
+                <div class="mb-3 mt-3 tj"> 
+                    <input type="email" placeholder="Email" required>
+                </div>
+                <div class="mb-3 mt-3 tj">
+                    <input type="subject" placeholder="Subject" required>
 
+                </div>
+                <textarea placeholder="Message" cols="30" rows="10"></textarea>
+                <button class="kare mt-3" type="submit">SEND</button>
+               </div>
+                
+            </form>
+            <br>
+            <br>
+            <br>
 
-
-
-
-
-
-<a href=""></a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- <!-- <div>
-            <button type="button"><span></span>
-             </button>
-            <button type="button"><span></span></button>
+            <div class="socials row-cols-7 text-center fs-3">
+            <ion-icon name="logo-whatsapp"></ion-icon>
+            <ion-icon name="logo-instagram"></ion-icon>
+            <ion-icon name="logo-linkedin"></ion-icon>
+            <ion-icon name="logo-github"></ion-icon>
+            <ion-icon name="logo-twitter"></ion-icon>
+        </div>
         </div> -->
-
-
-        <a href="></a>
